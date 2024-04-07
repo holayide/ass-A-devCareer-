@@ -4,9 +4,8 @@
   box-sizing: border-box;
 }
 
-.about-container {
+body {
   background-color: rgb(55, 55, 114);
-  /* height: 100vh; */
 }
 
 a {
