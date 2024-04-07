@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-container {
+  background-color: rgb(55, 55, 114);
+  /* height: 100vh; */
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+nav > ul > li {
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+}
+
+nav > ul > li a {
+  color: rgb(201, 196, 196);
+}
+
+nav ul .active a {
+  color: gold;
+}
+
+.about-head {
+  margin: 70px 0;
+  text-align: center;
+  font-size: 2rem;
+}
+
+section {
+  text-align: center;
+}
+
+section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+  display: inline-block;
+}
+
+section p {
+  font-size: 1.2rem;
+  letter-spacing: 0.03rem;
+  line-height: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.Summary p {
+  width: 70ch;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.hobbies ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.hobbies ul li {
+  width: 200px;
+  list-style: circle;
+  /* list-style-position: inside; */
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* form */
+.form {
+  text-align: center;
+}
+
+form {
+  padding-top: 50px;
+}
